@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "681a5e4650a65fdeb46fb721"
+  },
+  "first_name": "Emma",
+  "last_name": "Johnson",
+  "address": {
+    "street": "123 Main St",
+    "city": "Barcelona",
+    "postal_code": "08001",
+    "country": "Spain"
+  },
+  "phone": "+34 600 123 456",
+  "email": "emma.johnson@example.com",
+  "registration_date": "2023-05-15T10:30:00Z",
+  "referred_by": null,
+  "last_shopping": [
+    {
+      "eyeglasses_id": {
+        "$oid": "64df1a9f6b1f4a23e1a54c6e"
+      },
+      "employee_id": {
+        "$oid": "64df1a9f6b1f4a23e1a54c6f"
+      },
+      "sale_date": "2023-06-10T14:25:00Z",
+      "supplier": {
+        "_id": {
+          "$oid": "64df1a9f6b1f4a23e1a54c70"
+        },
+        "name": "Lentes Europeos S.A.",
+        "telephone": "+34 934 56 78 90",
+        "fax": "+34 934 56 78 91",
+        "nif": "B12345678",
+        "address": {
+          "city": "Barcelona",
+          "country": "España",
+          "door": "B",
+          "floor": "3º",
+          "number": 45,
+          "street": "Avenida Óptica",
+          "zip_code": "08025"
+        }
+      },
+      "glasses": [
+        {
+          "_id": {
+            "$oid": "64df1a9f6b1f4a23e1a54c6e"
+          },
+          "brand": "Ray-Ban",
+          "prescription": {
+            "left_lens": "-1.75",
+            "right_lens": "-2.00"
+          },
+          "frame_type": "pasta",
+          "frame_color": "black",
+          "lens_color": {
+            "left": "clear",
+            "right": "clear"
+          },
+          "price": 149.99
+        }
+      ]
+    }
+  ]
+}]

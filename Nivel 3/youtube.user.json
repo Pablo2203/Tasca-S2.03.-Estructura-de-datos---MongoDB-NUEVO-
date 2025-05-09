@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "663c00000000000000000001"
+  },
+  "email": "jane.doe@example.com",
+  "password": "securehash123",
+  "user_name": "janedoeYT",
+  "birthdate": "1992-06-15",
+  "gender": "female",
+  "postal_code": "08002",
+  "video": [
+    {
+      "_id": {
+        "$oid": "663c00000000000000000002"
+      },
+      "title": "Cómo editar videos gratis",
+      "description": "Un tutorial completo de edición de video.",
+      "size": "1.2GB",
+      "file_name": "edit_tutorial.mp4",
+      "duration": 540.5,
+      "thumbnail": "thumbnail1.png",
+      "number_of_reproductions": 24000,
+      "number_of_likes": 1850,
+      "number_of_dislikes": 23,
+      "video_state": {
+        "public": true,
+        "hided": false,
+        "private": false
+      },
+      "tag": [
+        "tutorial",
+        "edición",
+        "gratis"
+      ],
+      "video_owner": "janedoeYT",
+      "posted_time": "2023-11-20T10:00:00Z",
+      "comment": [
+        {
+          "_id": {
+            "$oid": "663c00000000000000000003"
+          },
+          "text": "¡Excelente explicación, gracias!",
+          "date_time": "2023-11-21T12:45:00Z"
+        },
+        {
+          "_id": {
+            "$oid": "663c00000000000000000004"
+          },
+          "text": "Muy útil el tutorial.",
+          "date_time": "2023-11-22T08:00:00Z"
+        }
+      ]
+    }
+  ],
+  "channel": [
+    {
+      "_id": {
+        "$oid": "663c00000000000000000005"
+      },
+      "name": "Jane Aprende",
+      "description": "Canal dedicado a enseñar herramientas digitales.",
+      "creation_date": "2023-08-01",
+      "subscribe_to_channel": {
+        "user_id": {
+          "$oid": "663c00000000000000000006"
+        },
+        "date_time": "2023-08-15T09:30:00Z"
+      },
+      "like_video": {
+        "video_id": "663c00000000000000000002",
+        "total_amount_of_likes": 1850,
+        "date_time": "2023-11-20T11:00:00Z"
+      },
+      "dislike_video": {
+        "video_id": "663c00000000000000000002",
+        "total_amount_of_dislikes": 23,
+        "date_time": "2023-11-20T11:05:00Z"
+      }
+    }
+  ],
+  "playlist": [
+    {
+      "_id": {
+        "$oid": "663c00000000000000000007"
+      },
+      "name": "Favoritos de diseño",
+      "creation_date": "2024-01-10",
+      "state": {
+        "private": false,
+        "public": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "663c00000000000000000008"
+      },
+      "name": "Ver después",
+      "creation_date": "2024-02-01",
+      "state": {
+        "private": true,
+        "public": false
+      }
+    }
+  ]
+}]

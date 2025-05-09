@@ -1,0 +1,148 @@
+[{
+  "_id": {
+    "$oid": "681b635150a65fdeb46fb769"
+  },
+  "name": "True",
+  "last_name": "Person",
+  "address": {
+    "street": "Right Street",
+    "number": 42,
+    "floor": "3",
+    "door": "B",
+    "postal_code": "08001",
+    "locality": "Barcelona",
+    "province": "Barcelona"
+  },
+  "telephone": "62819321",
+  "order": [
+    {
+      "_id": {
+        "$oid": "681b635150a65fdeb46fb769"
+      },
+      "date_time": "2025-05-07T13:45:00Z",
+      "delivery_or_takeaway": {
+        "delivery": {
+          "address": {
+            "street": "Right Street",
+            "number": 42,
+            "floor": "3",
+            "door": "B",
+            "postal_code": "08001",
+            "locality": "Barcelona",
+            "province": "Barcelona"
+          }
+        },
+        "takeaway": ""
+      },
+      "product": [
+        {
+          "_id": {
+            "$oid": "681b635150a65fdeb46fb769"
+          },
+          "name": "Pizza Margarita",
+          "description": "Thin dough",
+          "image": null,
+          "price": 8,
+          "type": {
+            "hamburguer": "",
+            "pizza_category": {
+              "name": "Margarita",
+              "pizza_type": "Thin dough"
+            },
+            "drink": ""
+          }
+        },
+        {
+          "_id": {
+            "$oid": "681b635150a65fdeb46fb770"
+          },
+          "name": "Pizza BBQ",
+          "description": "Normal dough",
+          "image": null,
+          "price": 12,
+          "type": {
+            "hamburguer": "",
+            "pizza_category": {
+              "name": "BBQ",
+              "pizza_type": "Normal dough"
+            },
+            "drink": ""
+          }
+        },
+        {
+          "_id": {
+            "$oid": "681b635150a65fdeb46fb771"
+          },
+          "name": "Double Hamburger",
+          "description": "",
+          "image": null,
+          "price": 8,
+          "type": {
+            "hamburguer": "Double",
+            "pizza_category": {
+              "name": "",
+              "pizza_type": ""
+            },
+            "drink": ""
+          }
+        },
+        {
+          "_id": {
+            "$oid": "681b635150a65fdeb46fb772"
+          },
+          "name": "Coke",
+          "description": "",
+          "image": null,
+          "price": 2.5,
+          "type": {
+            "hamburguer": "",
+            "pizza_category": {
+              "name": "",
+              "pizza_type": ""
+            },
+            "drink": "Coke"
+          }
+        }
+      ],
+      "quantity": 6,
+      "total_price": 61,
+      "addtional_information": "We don’t have elevator!"
+    }
+  ],
+  "store": [
+    {
+      "_id": {
+        "$oid": "681b635150a65fdeb46fb769"
+      },
+      "address": {
+        "street": "Main Street",
+        "number": 10,
+        "floor": "1",
+        "door": "A",
+        "postal_code": "08002",
+        "locality": "Barcelona",
+        "province": "Barcelona"
+      },
+      "staff": [
+        {
+          "_id": {
+            "$oid": "681b635150a65fdeb46fb769"
+          },
+          "name": "Carlos",
+          "last_name": "Reyes",
+          "NIF": "12345678A",
+          "telephone": "+34 600 123 456",
+          "type": {
+            "delivery": [
+              {
+                "delivery_order": "Confirmed Order #123",
+                "date_time_delivered": "2025-05-07T15:00:00Z"
+              }
+            ],
+            "cooker": {}
+          }
+        }
+      ]
+    }
+  ]
+}]
