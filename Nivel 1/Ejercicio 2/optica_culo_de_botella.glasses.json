@@ -34,31 +34,27 @@
   },
   "bought_by": [
     {
-      "customer_id": {
-        "$oid": "64df1a9f6b1f4a23e1a54c6e"
+      "customer": {
+        "_id": {
+          "$oid": "64df1a9f6b1f4a23e1a54c6e"
+        },
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "address": {
+          "street": "123 Main St",
+          "city": "Barcelona",
+          "postal_code": "08001",
+          "country": "Spain"
+        },
+        "phone": "+34 600 123 456",
+        "email": "emma.johnson@example.com",
+        "registration_date": "2023-05-15T10:30:00Z",
+        "referred_by": null
       },
       "employee_id": {
         "$oid": "64df1a9f6b1f4a23e1a54c6f"
       },
-      "sale_date": "2023-06-10T14:25:00Z",
-      "customer": [
-        {
-          "first_name": "Emma",
-          "last_name": "Johnson",
-          "address": {
-            "street": "123 Main St",
-            "city": "Barcelona",
-            "postal_code": "08001",
-            "country": "Spain"
-          }
-        },
-        {
-          "phone": "+34 600 123 456",
-          "email": "emma.johnson@example.com",
-          "registration_date": "2023-05-15T10:30:00Z",
-          "referred_by": null
-        }
-      ]
+      "sale_date": "2023-06-10T14:25:00Z"
     }
   ]
 }]

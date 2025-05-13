@@ -16,31 +16,11 @@
   "referred_by": null,
   "last_shopping": [
     {
-      "eyeglasses_id": {
-        "$oid": "64df1a9f6b1f4a23e1a54c6e"
-      },
+      "_id": "92df1a9f6b1f4a23e1a54c6f",
       "employee_id": {
         "$oid": "64df1a9f6b1f4a23e1a54c6f"
       },
       "sale_date": "2023-06-10T14:25:00Z",
-      "supplier": {
-        "_id": {
-          "$oid": "64df1a9f6b1f4a23e1a54c70"
-        },
-        "name": "Lentes Europeos S.A.",
-        "telephone": "+34 934 56 78 90",
-        "fax": "+34 934 56 78 91",
-        "nif": "B12345678",
-        "address": {
-          "city": "Barcelona",
-          "country": "España",
-          "door": "B",
-          "floor": "3º",
-          "number": 45,
-          "street": "Avenida Óptica",
-          "zip_code": "08025"
-        }
-      },
       "glasses": [
         {
           "_id": {
@@ -57,7 +37,25 @@
             "left": "clear",
             "right": "clear"
           },
-          "price": 149.99
+          "price": 149.99,
+          "supplier": {
+            "_id": {
+              "$oid": "64df1a9f6b1f4a23e1a54c70"
+            },
+            "name": "Lentes Europeos S.A.",
+            "telephone": "+34 934 56 78 90",
+            "fax": "+34 934 56 78 91",
+            "nif": "B12345678",
+            "address": {
+              "city": "Barcelona",
+              "country": "España",
+              "door": "B",
+              "floor": "3º",
+              "number": 45,
+              "street": "Avenida Óptica",
+              "zip_code": "08025"
+            }
+          }
         }
       ]
     }
